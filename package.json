@@ -1,0 +1,33 @@
+{
+  "name": "gulp-debounce",
+  "version": "1.0.0",
+  "description": "Debounce a gulp stream to prevent the same event firing multiple times",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mnzaki/gulp-debounce.git"
+  },
+  "keywords": [
+    "gulp",
+    "debounce",
+    "stream",
+    "watch",
+    "gulpplugin",
+    "gulp-plugin"
+  ],
+  "author": "Mina Nagy Zaki <mnzaki@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mnzaki/gulp-debounce/issues"
+  },
+  "homepage": "https://github.com/mnzaki/gulp-debounce#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "through": "^2.3.8"
+  },
+  "engine": "node >= 0.10",
+  "readmeFilename": "README.md"
+}
