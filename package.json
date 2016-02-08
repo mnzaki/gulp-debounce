@@ -14,6 +14,7 @@
     "gulp",
     "debounce",
     "stream",
+    "events",
     "watch",
     "gulpplugin",
     "gulp-plugin"
@@ -25,7 +26,6 @@
   },
   "homepage": "https://github.com/mnzaki/gulp-debounce#readme",
   "dependencies": {
-    "gulp-util": "^3.0.7",
     "through": "^2.3.8"
   },
   "engine": "node >= 0.10",
